@@ -1,0 +1,81 @@
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.65;
+  word-break: break-word;
+  font-kerning: auto;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  hyphens: auto;
+}
+
+main {
+  padding: 20px 20px 60px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #efefef;
+  margin: 3em auto;
+}
+
+.link-home {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.videos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.videos li {
+  border-bottom: 1px solid black;
+}
+.videos li:last-child {
+  border-bottom: none;
+}
+.videos li a {
+  display: flex;
+  align-items: center;
+}
+.videos h3,
+.videos p {
+  margin: 0;
+}
+.videos img {
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.player-wrapper,
+mux-player {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: flex;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
